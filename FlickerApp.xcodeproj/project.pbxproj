@@ -40,11 +40,6 @@
 			path = FlickerAppTests;
 			sourceTree = "<group>";
 		};
-		A19BFBDA2D59C72500FCED04 /* FlickerAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FlickerAppUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +72,6 @@
 			children = (
 				A19BFBBF2D59C72400FCED04 /* FlickerApp */,
 				A19BFBD02D59C72500FCED04 /* FlickerAppTests */,
-				A19BFBDA2D59C72500FCED04 /* FlickerAppUITests */,
 				A19BFBBE2D59C72400FCED04 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,9 +146,6 @@
 			);
 			dependencies = (
 				A19BFBD92D59C72500FCED04 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				A19BFBDA2D59C72500FCED04 /* FlickerAppUITests */,
 			);
 			name = FlickerAppUITests;
 			packageProductDependencies = (
